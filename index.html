@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="stijl.css">
+    <style>
+        .afbeelding-vast {
+            height: 250px; /* Geef de gewenste hoogte */
+            width: 100%; /* Zorg ervoor dat de afbeelding de hele breedte vult */
+            object-fit: cover; /* Zorgt ervoor dat de afbeelding wordt bijgesneden naar de container */
+        }
+    </style>
+    <title>Mijn Pagina</title>
+</head>
+<body>
+    <!-- Navigatie -->
+    <header class="bg-dark text-white p-3">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <a class="navbar-brand" href="index.html">Mijn Pagina</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="overmij.html">Over mij</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Welkomstbericht en Inleiding -->
+    <div class="container">
+        <h1>Welkom op mijn website</h1>
+        <p>Welkom! Ik ben Wilson Thompson en ik woon in het levendige Rotterdam. In mijn vrije tijd hou ik ervan om actief bezig te zijn. Sporten is een belangrijke hobby voor mij, en ik geniet van verschillende fysieke activiteiten, zoals kickboksen en hardlopen.</p>
+        <p>Naast mijn sportieve hobby’s houd ik me ook bezig met een gezonde levensstijl. Het <strong>Leefstijlroer</strong> speelt hierin een grote rol en is een dagelijkse inspiratie voor mij. Het helpt me niet alleen om mijn fysieke gezondheid in balans te houden, maar ook mijn mentale welzijn.</p>
+        
+        <!-- Afbeeldingen Grid -->
+        <div class="row mt-3">
+            <div class="col-md-4 mb-4">
+                <img src="https://www.spidergym.net/wp-content/uploads/2024/10/IMG_4696.jpg-768x383.jpeg" class="img-fluid rounded afbeelding-vast" alt="Afbeelding 1">
+            </div>
+            <div class="col-md-4 mb-4">
+                <img src="https://www.nieuwsvoordietisten.nl/wp-content/uploads/2024/02/gezond-eten.jpg" class="img-fluid rounded afbeelding-vast" alt="Afbeelding 2">
+            </div>
+            <div class="col-md-4 mb-4">
+                <img src="https://www.reisroutes.be/userfiles/fotos/kubuswoningen-rotterdam_585_l.jpg" class="img-fluid rounded afbeelding-vast" alt="Afbeelding 3">
+            </div>
+            <div class="col-md-4 mb-4">
+                <img src="https://www.hardloop.net/wp-content/uploads/2022/10/intervaltraining-hardlopen.jpg" class="img-fluid rounded afbeelding-vast" alt="Afbeelding 4">
+            </div>
+            <div class="col-md-4 mb-4">
+                <img src="https://www.skinsunlimited.nl/wp-content/uploads/2024/03/mediteren-tegen-stress-1024x576.jpg" class="img-fluid rounded afbeelding-vast" alt="Afbeelding 5">
+            </div>
+            <div class="col-md-4 mb-4">
+                <img src="https://cdn.holidayguru.nl/wp-content/uploads/2021/02/Rotterdam_nacht_shutterstock_259405577.jpg" class="img-fluid rounded afbeelding-vast" alt="Afbeelding 6">
+            </div>
+            <div class="col-md-4 mb-4">
+                <img src="https://images.contentstack.io/v3/assets/blt6b512cc60b434656/bltd320596b6ac55a51/660441da81417c155f4b59d5/hiit-training-for-runners.jpg" class="img-fluid rounded afbeelding-vast" alt="Afbeelding 7">
+            </div>
+            <div class="col-md-4 mb-4">
+                <img src="https://geurwolkje.nl/cdn/shop/articles/etherische_olie_slapen.jpg" class="img-fluid rounded afbeelding-vast" alt="Afbeelding 8">
+            </div>
+            <div class="col-md-4 mb-4">
+                <img src="https://weekendsinrotterdam.com/wp-content/uploads/2020/06/Splash-tour-Rotterdam-1.jpg" class="img-fluid rounded afbeelding-vast" alt="Afbeelding 9">
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center p-4 mt-5">
+        <p>&copy; 2024 Wilson Thompson</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" 
+            integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" 
+            crossorigin="anonymous"></script>
+</body>
+</html>
